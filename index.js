@@ -100,7 +100,7 @@ const zvc ={
 };
 
 const pool = new Pool({
-  connectionString:secrets.ACCESS_KEY,
+  connectionString:process.ACCESS_KEY,
   ssl: {
     rejectUnauthorized: false,
   },
