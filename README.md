@@ -21,11 +21,15 @@
 
 you can use this repo on your pc too you only have to do is that 'clone this repo' as given below and then it will be installed into your pc.
 
-``` git clone REPO_LINK ```
+``` 
+git clone REPO_LINK
+```
 
 give a Command to install all dependencies gonna used for this api to get live.
 
-``` npm install ```
+```
+npm install 
+```
 
 also set up your database first in have used 'heroku-postgresql' for storing my all data and its too easy to set up, use heroku CLI to set up which is fast and dont require much data to connect to db.
 
@@ -63,7 +67,9 @@ Home page json data which instructs how to use this api.
 Get details with no of rows you want.
 
 
-```http://localhost:8080/id/NUMBER_OF_ROWS_YOU_NEED```
+```
+http://localhost:8080/id/NUMBER_OF_ROWS_YOU_NEED
+```
 
 Response -
 
@@ -75,7 +81,9 @@ Response -
 
 Get details with provided name.
 
-```http://localhost:8080/user/YOUR_GIVEN_NAME```
+```
+http://localhost:8080/user/YOUR_GIVEN_NAME
+```
 
 
 Response - 
@@ -87,7 +95,9 @@ Response -
 
 * EXAMPLE
 
-```http://localhost:8080/user/mad_mods```
+```
+http://localhost:8080/user/mad_mods
+```
 
 RESPONSE -
 ```
