@@ -118,4 +118,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## Licence
-[Mad_Mods](https://github.com/MadMods96)
+[Mad_Mods](https://github.com/MadMods96/nodex/blob/master/LICENCE)
