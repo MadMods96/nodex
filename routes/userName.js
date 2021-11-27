@@ -25,6 +25,8 @@ router.get('/:name', function(req, res, next) {
                 (err, results) => {
                   const zxc = results.rows;
                   zxc[0].first_name = req.params.name;
+                  zxc[0].last_name= "";
+                //   zxc.splice()
                   res.send(zxc);
                 });
             }

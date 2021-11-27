@@ -9,7 +9,7 @@ const zvc ={
             "source": {
                 "pointer": "https://akshpareek.herokuapp.com/"
             },
-            "title": "Please peovide any number after api /id url to show some results",
+            "title": "Please peovide any number after api ' /id/NO_OF_DATA_NEEDED'  url to show some results",
             "detail": "not an error",
             "author" : "Madhusudan pareek"
         }
