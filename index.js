@@ -69,12 +69,12 @@
 // });
 
 const express = require("express");
-const app = express();
 const sweetHome = require('./routes/sweetHome')
 const userRandom = require('./routes/userRandom');
 const userName = require('./routes/userName');
-const port = process.env.PORT || 8080;
 
+const port = process.env.PORT || 8080;
+const app = express();
 
 app.use(function(req, res, next){
     res.header("Access-Control-Allow-Origin","*");
